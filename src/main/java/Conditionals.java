@@ -112,23 +112,54 @@ public class Conditionals {
 //            System.out.println(x);
 //            x--;
 //        }
-        System.out.println("Factorial of a number");
-//        Todo For your math class you need a program to calculate the factorial of a number.
-//          You're given a program which takes a number as input.
-//           Task
-//              Complete the program to calculate the factorial of the given number and output it.
+//        System.out.println("Factorial of a number");
+////        Todo For your math class you need a program to calculate the factorial of a number.
+////          You're given a program which takes a number as input.
+////           Task
+////              Complete the program to calculate the factorial of the given number and output it.
+//
+//        Scanner scanner = new Scanner(System.in);
+//        int  number = scanner.nextInt();
+//        int fact = 1;
+//        //your code goes here
+//
+//        // fact = * number <=
+//        while(number > 0) {
+//            fact *= number --;
+//        }
+//        System.out.println(fact);
 
-        Scanner scanner = new Scanner(System.in);
-        int  number = scanner.nextInt();
-        int fact = 1;
-        //your code goes here
+//        System.out.println("For Loops");
+//        A for loop allows you to efficiently write a loop
+//        that needs to execute a specific number of times.
 
-        // fact = * number <=
-        while(number > 0) {
-            fact *= number --;
+//        for (initialization; condition; increment/decrement) {
+//            statement(s);
+
+//            Initialization: Expression executes only once during the beginning of loop
+//            Condition: Is evaluated each time the loop iterates. The loop executes the statement repeatedly, until this condition returns false.
+//            Increment/Decrement: Executes after each iteration of the loop.
+//
+//        Print the numbers 1-5
+//        for(int x = 1; x <=5; x++) {
+//            System.out.println(x);
+//        }
+
+////        Todo
+////            You are given code that takes the number of students who
+////            enter the university as input. Let's greet them!
+////            Task
+////            Complete the program to output "Welcome" for each student.
+//            Scanner scanner = new Scanner(System.in);
+//            int n = scanner.nextInt();
+//            for(int i =0; i < n; i ++){
+//                System.out.println("Welcome");
+//            }
+////Todo Print Great 10 times
+//        for (int i = 0; i < 10; i ++){
+//            System.out.println("Great");
+//        }
+
         }
-        System.out.println(fact);
-
     }
 
-}
