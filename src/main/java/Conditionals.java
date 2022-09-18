@@ -159,6 +159,13 @@ public class Conditionals {
 //        for (int i = 0; i < 10; i ++){
 //            System.out.println("Great");
 //        }
+//      Todo Print a for loop that prints even numbers
+//         x is equal to 0, x is less than or equal to 10 -> 0-10.
+//         x equals x plus 2 -> to keep displaying evens.
+//
+//        for(int x = 0; x <=10; x=x+2)
+//            System.out.println(x);
+
 
         }
     }
