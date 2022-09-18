@@ -97,14 +97,38 @@ public class Conditionals {
 //                break;
 //        }
 
-        System.out.println("Switch Expression");
-        int emotion = 2;
-        String emotionLess = switch (emotion) {
-            case 1, 2, 3, 4 -> "You are feeling emotions";
-            case 5, 6, 7 -> "You are not";
-            default -> "What is an emption?";
-        };
-        System.out.println(emotionLess);
+//        System.out.println("Switch Expression");
+//        int emotion = 2;
+//        String emotionLess = switch (emotion) {
+//            case 1, 2, 3, 4 -> "You are feeling emotions";
+//            case 5, 6, 7 -> "You are not";
+//            default -> "What is an emption?";
+//        };
+//        System.out.println(emotionLess);
+//        System.out.println("Loops ");
+//        System.out.println("While Loop");
+//        int x = 3;
+//        while(x > 0) {
+//            System.out.println(x);
+//            x--;
+//        }
+        System.out.println("Factorial of a number");
+//        Todo For your math class you need a program to calculate the factorial of a number.
+//          You're given a program which takes a number as input.
+//           Task
+//              Complete the program to calculate the factorial of the given number and output it.
+
+        Scanner scanner = new Scanner(System.in);
+        int  number = scanner.nextInt();
+        int fact = 1;
+        //your code goes here
+
+        // fact = * number <=
+        while(number > 0) {
+            fact *= number --;
+        }
+        System.out.println(fact);
+
     }
 
 }
