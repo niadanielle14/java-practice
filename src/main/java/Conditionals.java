@@ -166,7 +166,34 @@ public class Conditionals {
 //        for(int x = 0; x <=10; x=x+2)
 //            System.out.println(x);
 
+//        System.out.println("Do While Loops");
+//        int x = 1;
+//        do {
+//            System.out.println(x);
+//            x++;
+//        } while(x < 5);
+
+
+//        will still run if the while is false
+//        int x = 1;
+//        do {
+//            System.out.println(x);
+//            x++;
+//        } while(x < 0);
+
+//        Todo Write a program that will continuously
+//          take a password as input and output
+//          Write password, until the client inserts the
+//          correct password.
+
+        Scanner read = new Scanner(System.in);
+        int password;
+        do {
+            System.out.println("password");
+            password = read.nextInt();
+        }
+        while (password != 8819);
+        }
 
         }
-    }
 
