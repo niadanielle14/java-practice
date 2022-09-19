@@ -186,14 +186,73 @@ public class Conditionals {
 //          Write password, until the client inserts the
 //          correct password.
 
-        Scanner read = new Scanner(System.in);
-        int password;
-        do {
-            System.out.println("password");
-            password = read.nextInt();
-        }
-        while (password != 8819);
-        }
+//        Scanner read = new Scanner(System.in);
+//        int password;
+//        do {
+//            System.out.println("Write password");
+//            password = read.nextInt();
+//        }
+//        while (password != 8819);
+
+
+//        System.out.println("Break and Continue");
+//        // TODO: Break - The break and continue statements change the loop's
+//              execution flow.
+//              The break statement terminates the loop and transfers
+//              execution to the statement immediately following the loop.
+
+//        int x = 1;
+//
+//        while(x > 0) {
+//            System.out.println(x);
+//            if(x == 4) {
+//                break;
+//            }
+//            x++;
+//        }
+
+
+        // TODO CONTINUE: The continue statement causes the loop to skip the
+        //  remainder of its body and then immediately retest its
+        //  condition prior to reiterating. In other words, it makes the
+        //  loop skip to its next iteration. 30 is skipped at the continue.
+
+//        for(int x=10; x<=40; x=x+10) {
+//            if(x == 30) {
+//                continue;
+//            }
+//            System.out.println(x);
+//        }
+
+// TODO: Build a Loan Calculator - You take a loan from a friend and need
+//  to calculate how much you will owe him after 3 months.
+//  You are going to pay him back 10% of the remaining loan amount
+//  each month.
+//  Create a program that takes the loan amount as input, calculates
+//  and outputs the remaining amount after 3 months.
+
+//        Here is the monthly payment schedule:
+//        Month 1
+//        Payment: 10% of 20000 = 2000
+//        Remaining amount: 18000
+//        Month 2
+//        Payment: 10% of 18000 = 1800
+//        Remaining amount: 16200
+//        Month 3:
+//        Payment: 10% of 16200 = 1620
+//        Remaining amount: 14580
+
+        Scanner scanner = new Scanner(System.in);
+        int amount = scanner.nextInt();
+        //your code goes here
+        int remaining = amount;
+        for (int x = 0;x < 3;x++) {
+            amount -= ((amount * 10) / 100);
+        };
+        System.out.println(amount);
+
 
         }
+
+}
 
